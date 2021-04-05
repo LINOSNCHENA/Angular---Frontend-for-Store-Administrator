@@ -1,17 +1,22 @@
 # CLIENTS AND ORDERS MANAGEMENT SYSTEM
 
+Manipulation of MySQL records
+Access restriction by password
+
+
 ## Executing commands
 
 ```
-cd Backend \
+cd Backend 
+------------------------
+npm install
 npm start
 
-cd FrontEnd \
+cd FrontEnd 
+------------------------
+npm install
 npm start
 
-npm install bootstrap --save
-npm install jquery --save
-npm install popper.js --save
 ```
 
 
@@ -31,7 +36,8 @@ Below are some screens shots from the application console
 ![Muntu#4](https://github.com/LINOSNCHENA/Angular-Frontend-for-store-administrator/blob/main/UXViews/page4.png)
 ![Muntu#5](https://github.com/LINOSNCHENA/Angular-Frontend-for-store-administrator/blob/main/UXViews/page5.png)
 
-## Versioning : LECTURER #4
+## Versioning : LECTURER # 20
+
+Lastest versions both frontend and backend
 
 # END
-

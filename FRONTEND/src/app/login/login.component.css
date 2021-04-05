@@ -1,0 +1,16 @@
+.LevelOne {
+    border: 5px outset green;
+    background-color: lightblue;
+    text-align: center;
+    background-size: 100% auto;
+  
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+  
+    width: 65%;
+    height: 50%;
+    font-size: 22px;
+    color: green;
+  }

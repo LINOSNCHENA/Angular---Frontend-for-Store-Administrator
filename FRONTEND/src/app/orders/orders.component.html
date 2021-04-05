@@ -1,0 +1,54 @@
+<div class="LevelOne">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">No.</th>
+          <th scope="col">Id.</th>
+          <th scope="col">Customer</th>
+          <th scope="col">Address</th>
+          <th scope="col">Status</th>
+  
+          <th scope="col">Description</th>
+          <th scope="col">Purchase-Date</th>
+          <th scope="col">Delay-Days</th>
+  
+          <th scope="col">Unit-Prices</th>
+          <th scope="col">Total-Unit</th>
+          <th scope="col">Total-Bills</th>
+          <th colspan="2">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let VALUE of residents; index as i">
+          <td> {{i+1}}</td>
+          <td>{{ VALUE.id }}</td>
+          <td>{{ VALUE.clientName }}</td>
+          <td>{{ VALUE.address }}</td>
+          <td>{{ VALUE.orderStatus }}</td>
+  
+          <td>{{ VALUE.description }}</td>
+          <td>{{ VALUE.purchaseDate | date: "short" }}</td>
+          <td>{{ VALUE.dueDays }}</td>
+  
+          <td>CZK {{ VALUE.unitPrice }}</td>
+          <td>{{ VALUE.totalUnits }}</td>
+          <td>CZK {{ VALUE.totalBill }}</td>
+          <td>
+            <a
+              class="btn btn-sm btn-warning m-1"
+              href="/updateOrder/{{ VALUE.id }}"
+              >Edit</a
+            >
+            <button class="btn btn-sm btn-danger m-1" (click)="delete(VALUE.id)">
+              <i></i>Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  <!-- </div>
+  <div class="LevelOne"> -->
+    <a href="/addOrder" class="btn btn-primary m-1">Add New Order TWO</a>
+  </div>
+  <br /><br />
+  

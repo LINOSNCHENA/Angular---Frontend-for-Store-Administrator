@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">CLIENTS AND THEIR ORDERS</a>
+
+
+  <ul class="navbar-nav ml-auto" *ngIf="!isLoggedIn">
+    <li class="nav-item">
+      <a class="nav-link" href="/login" routerLink="login">login</a>
+    </li>
+  </ul>
+
+  <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+    <li class="nav-item">
+      <a class="nav-link" href (click)="logout()">logout</a>
+    </li>
+  </ul>
+</nav>
+
+<div>
+  <!-- <div class="container my-3"></div> -->
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,32 @@
+.LevelOne {
+  border: 5px outset green;
+  background-color: lightblue;
+  text-align: center;
+  background-size: 100% auto;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+
+  width: 95%;
+  height: 90%;
+  font-size: 22px;
+  color: green;
+}
+
+.LevelTwo {
+  border: 5px outset blueviolet;
+  background-color: greenyellow;
+  font-size: 20px;
+  color: green;
+}
+
+.LevelThree {
+  border: 5px outset blue;
+  background-color: gainsboro;
+  background-size: 100% auto;
+  font-size: 18px;
+  color: blue;
+  text-align: left;
+}

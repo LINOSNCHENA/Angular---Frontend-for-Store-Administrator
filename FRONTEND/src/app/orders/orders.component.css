@@ -1,0 +1,24 @@
+.LevelOne {
+  border: 5px outset green;
+  background-color: lightblue;
+  background-size: 100% auto;
+  text-align: center;
+
+  background-image: url("../../assets/stone/page99.jpg"); 
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+
+  /* margin: auto; */
+  /* position: fixed; */
+
+  width: 95%;
+  height: 95%;
+  font-size: 22px;
+  color: green;
+}

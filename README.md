@@ -36,7 +36,7 @@ Below are some screens shots from the application console
 ![Muntu#4](https://github.com/LINOSNCHENA/Angular-Frontend-for-store-administrator/blob/main/UXViews/page4.png)
 ![Muntu#5](https://github.com/LINOSNCHENA/Angular-Frontend-for-store-administrator/blob/main/UXViews/page5.png)
 
-## Versioning : LECTURER # 20
+## Versioning : LECTURER # 17
 
 Lastest versions both frontend and backend
 
